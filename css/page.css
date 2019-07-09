@@ -3,7 +3,9 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-image: url(images/bannervert-bg.jpg);
+    background-size: cover;
+    background-color: #0077ff;
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -11,19 +13,24 @@ ul {
 
   li a {
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
   }
 
   /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
+    background-color: gray;
+    color: white;
+  }
+
+  h1 {
     color: white;
   }
 
   .header {
-    background: url(banner-bg.jpg);
+    background-image: url(images/banner-bg.jpg);
+    background-size: cover;
     background-color: #0077ff;
     padding: 1px;
     text-align: center;
@@ -39,7 +46,9 @@ ul {
   }
   
   .column.middle {
-    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+    width: 1100px;
   }
   
   /* Clear floats after the columns */
