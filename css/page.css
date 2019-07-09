@@ -42,6 +42,7 @@ ul {
   }
   
   .column.side {
+    height: 100%;
     width: 200px;
   }
   
@@ -63,4 +64,9 @@ ul {
     .column.side, .column.middle {
       width: 100%;
     }
+  }
+
+  body {
+    background-image: url(images/bgspace.gif);
+    background-color: black;
   }
